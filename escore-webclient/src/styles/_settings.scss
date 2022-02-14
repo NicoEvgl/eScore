@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i");
+
+/********** Colors **********/
+$base-font-color: #111;
+$color-text: whitesmoke;
+
+/********** Typography **********/
+$light: 300;
+$regular: 400;
+$bold: 700;
+$base-font-family: "Muli", Arial, sans-serif;
+$base-font-size: 1.6em;
+$base-font-weight: $regular;
+/********** Sizes **********/
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+/********** Animation **********/
+$base-duration: 150ms;
+$base-timing: ease;
+$input-transition: box-shadow 0.25s cubic-bezier(0.27, 0.01, 0.38, 1.06),
+  border-color 0.25s cubic-bezier(0.27, 0.01, 0.38, 1.06) !default;
