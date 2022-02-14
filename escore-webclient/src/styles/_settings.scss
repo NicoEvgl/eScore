@@ -3,7 +3,6 @@
 /********** Colors **********/
 $base-font-color: #111;
 $color-text: whitesmoke;
-
 /********** Typography **********/
 $light: 300;
 $regular: 400;
@@ -17,6 +16,10 @@ $heading-line-height: 1.2;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
+/********** Border **********/
+$base-border-color: #a5b0ba;
+$base-border: 1px solid $base-border-color;
+$base-border-radius: 3px;
 /********** Animation **********/
 $base-duration: 150ms;
 $base-timing: ease;
