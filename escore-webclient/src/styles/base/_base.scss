@@ -1,7 +1,13 @@
-*,
-*::after,
-*::before {
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: inherit;
+  &::before {
+    box-sizing: inherit;
+  }
+  &::after {
+    box-sizing: inherit;
+  }
 }
 
 html {
@@ -16,8 +22,10 @@ body {
   background-size: 2160px auto !important;
   background-position: center top;
   background-repeat: no-repeat;
-  margin: 127px auto 0 auto;
   max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 article,

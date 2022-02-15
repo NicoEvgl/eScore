@@ -1,0 +1,43 @@
+.global-header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 56%;
+}
+.team-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  @include grid-media($tablet) {
+    display: none;
+  }
+  a {
+    top: 0px;
+    height: 70px;
+    width: 200px;
+    .team-logo {
+      background-image: url("../../../public/img/ico/favicon-194x194.png");
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-position: center;
+      width: 200px;
+      height: 70px;
+      display: block;
+      @include grid-media($under-1600) {
+        margin-left: 20px;
+      }
+      .tagline {
+        position: absolute;
+        font-family: $base-font-family;
+        font-weight: $bold;
+        top: 30px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #949494;
+        left: 60%;
+        width: 190px;
+      }
+    }
+  }
+}

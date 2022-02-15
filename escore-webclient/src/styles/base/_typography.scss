@@ -21,12 +21,12 @@ p {
 }
 a {
   text-decoration: none;
-  color: $color-text;
+  color: $base-color-text;
   transition: color $base-duration $base-timing;
   &:active,
   &:focus,
   &:hover {
-    color: shade($color-text, 25%);
+    color: shade($base-color-text, 25%);
   }
 }
 hr {

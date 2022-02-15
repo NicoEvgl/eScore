@@ -2,7 +2,8 @@
 
 /********** Colors **********/
 $base-font-color: #111;
-$color-text: whitesmoke;
+$base-color-text: whitesmoke;
+$base-background-color: #001e28ee;
 /********** Typography **********/
 $light: 300;
 $regular: 400;
@@ -15,13 +16,42 @@ $base-line-height: 1.5;
 $heading-line-height: 1.2;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
-$base-z-index: 0;
+$base-z-index: auto;
 /********** Border **********/
 $base-border-color: #a5b0ba;
 $base-border: 1px solid $base-border-color;
-$base-border-radius: 3px;
+$base-border-radius: 6px;
 /********** Animation **********/
 $base-duration: 150ms;
 $base-timing: ease;
 $input-transition: box-shadow 0.25s cubic-bezier(0.27, 0.01, 0.38, 1.06),
   border-color 0.25s cubic-bezier(0.27, 0.01, 0.38, 1.06) !default;
+/********** Grid Media **********/
+$neat-grid: (
+  columns: 12,
+  gutter: 20px,
+);
+$tablet: (
+  columns: 8,
+  gutter: 10px,
+  media: "only screen and (max-width: 900px)",
+  color: rgba(#00d4ff, 0.25),
+);
+$mobile: (
+  columns: 4,
+  gutter: 10px,
+  media: "only screen and (max-width: 500px)",
+  color: rgba(#00d4ff, 0.25),
+);
+$small-screen: (
+  columns: 12,
+  gutter: 10px,
+  media: "only screen and (max-width: 1024px)",
+  color: rgba(#00d4ff, 0.25),
+);
+$under-1600: (
+  columns: 12,
+  gutter: 10px,
+  media: "only screen and (max-width: 1600px)",
+  color: rgba(#00d4ff, 0.25),
+);
