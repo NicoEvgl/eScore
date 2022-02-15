@@ -1,8 +1,5 @@
 .global-header {
-  overflow: hidden;
-  position: fixed;
   top: 0;
-  width: 56%;
 }
 .team-header {
   display: flex;
@@ -35,7 +32,7 @@
         font-size: 1rem;
         text-transform: uppercase;
         color: #949494;
-        left: 60%;
+        left: 55%;
         width: 190px;
       }
     }
