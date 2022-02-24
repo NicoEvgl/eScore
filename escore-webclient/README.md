@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Escore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live eSport matches, all results and standings of your best eSport competitions.
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
