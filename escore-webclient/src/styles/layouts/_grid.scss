@@ -1,0 +1,9 @@
+.w {
+  @include grid-media($mobile) {
+    padding: 0 10px;
+  }
+  .c {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
