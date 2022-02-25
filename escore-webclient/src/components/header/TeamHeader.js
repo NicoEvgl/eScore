@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Sidebar from "./Sidebar";
 
 const TeamHeader = () => {
   return (
@@ -12,7 +11,6 @@ const TeamHeader = () => {
           </span>
         </div>
       </NavLink>
-      <Sidebar />
     </div>
   );
 };
