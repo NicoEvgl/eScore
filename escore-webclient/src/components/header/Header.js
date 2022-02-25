@@ -1,7 +1,7 @@
 import React from "react";
 import TeamHeader from "./TeamHeader";
-import Sidebar from "./Sidebar";
-import NavBar from "./NavBar";
+import Sidebar from "../layouts/Sidebar";
+import NavBar from "../layouts/NavBar";
 
 const Header = () => {
   return (
