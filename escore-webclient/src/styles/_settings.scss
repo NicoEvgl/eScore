@@ -1,16 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i");
-
 /********** Colors **********/
 $base-font-color: #111;
 $base-color-text: whitesmoke;
 $base-background-color: #001e28ee;
 /********** Typography **********/
-$light: 300;
-$regular: 400;
-$bold: 700;
 $base-font-family: "Muli", Arial, sans-serif;
-$base-font-size: 1.6em;
-$base-font-weight: $regular;
+$base-font-size: 1.4em;
+$base-font-weight: normal;
 /********** Sizes **********/
 $base-line-height: 1.5;
 $heading-line-height: 1.2;
@@ -55,3 +50,12 @@ $under-1600: (
   media: "only screen and (max-width: 1600px)",
   color: rgba(#00d4ff, 0.25),
 );
+/********** Mixins **********/
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+@mixin clean-ul {
+  @include reset();
+  list-style-type: none;
+}
