@@ -1,9 +1,12 @@
 @import "../../node_modules/bourbon/core/bourbon";
 @import "../../node_modules/bourbon-neat/core/neat";
+@import url("https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i");
 @import "./settings";
 @import "./base/base";
 @import "./base/typography";
+@import "./layouts/grid";
 @import "./layouts/sidebar";
+@import "./layouts/navbar";
 @import "./components/header";
 
 @import "./pages/home";
