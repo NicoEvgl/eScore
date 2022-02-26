@@ -1,0 +1,91 @@
+.vertical-games-filters {
+  @include clean-ul;
+  @include grid-media($tablet) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6px;
+  }
+  a {
+    display: block;
+    + a {
+      margin-top: 10px;
+      @include grid-media($tablet) {
+        margin: 3px;
+      }
+    }
+    li {
+      @include grid-media($tablet) {
+        margin: 3px;
+      }
+    }
+  }
+  .filter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    background: #dcdcdc;
+    padding: 0 10px;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    @include grid-media($small-screen) {
+      justify-content: center;
+    }
+    @include grid-media($tablet) {
+      height: 44px;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.06);
+      border-radius: 10px;
+      opacity: 0;
+      transition: all 0.35s ease-in-out;
+    }
+    &:hover {
+      &::before {
+        opacity: 1;
+      }
+      background: #cfcfcf;
+      .icon {
+        opacity: 0.8;
+      }
+      .filter-name {
+        opacity: 0.8;
+      }
+    }
+    .icon {
+      width: 32px;
+      margin-right: 15px;
+      opacity: 0.5;
+      transition: all 0.35s ease-in-out;
+      @include grid-media($small-screen) {
+        margin: 0;
+      }
+      @include grid-media($tablet) {
+        width: 24px;
+      }
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .filter-name {
+      font-family: $base-font-family;
+      font-weight: bold;
+      color: #000;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      opacity: 0.5;
+      transition: all 0.35s ease-in-out;
+      @include grid-media($small-screen) {
+        display: none;
+      }
+    }
+  }
+}
