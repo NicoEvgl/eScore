@@ -16,8 +16,8 @@ const VerticalGamesFilters = () => {
           <div className="filter">
             <div className="icon">
               <img src={allgames} alt="allgames-icon" />
-              <div className="filter-name">Tous les jeux</div>
             </div>
+            <div className="filter-name">Tous les jeux</div>
           </div>
         </li>
       </NavLink>
@@ -26,8 +26,8 @@ const VerticalGamesFilters = () => {
           <div className="filter">
             <div className="icon">
               <img src={lol} alt="allgames-icon" />
-              <div className="filter-name">League Of Legends</div>
             </div>
+            <div className="filter-name">League Of Legends</div>
           </div>
         </li>
       </NavLink>
@@ -36,8 +36,8 @@ const VerticalGamesFilters = () => {
           <div className="filter">
             <div className="icon">
               <img src={csgo} alt="allgames-icon" />
-              <div className="filter-name">Counter-Strike : GO</div>
             </div>
+            <div className="filter-name">Counter-Strike : GO</div>
           </div>
         </li>
       </NavLink>
@@ -46,8 +46,8 @@ const VerticalGamesFilters = () => {
           <div className="filter">
             <div className="icon">
               <img src={valo} alt="allgames-icon" />
-              <div className="filter-name">Valorant</div>
             </div>
+            <div className="filter-name">Valorant</div>
           </div>
         </li>
       </NavLink>
@@ -56,8 +56,8 @@ const VerticalGamesFilters = () => {
           <div className="filter">
             <div className="icon">
               <img src={dota} alt="allgames-icon" />
-              <div className="filter-name">Dota 2</div>
             </div>
+            <div className="filter-name">Dota 2</div>
           </div>
         </li>
       </NavLink>
@@ -66,8 +66,8 @@ const VerticalGamesFilters = () => {
           <div className="filter">
             <div className="icon">
               <img src={rl} alt="allgames-icon" />
-              <div className="filter-name">Rocket League</div>
             </div>
+            <div className="filter-name">Rocket League</div>
           </div>
         </li>
       </NavLink>
@@ -76,8 +76,8 @@ const VerticalGamesFilters = () => {
           <div className="filter">
             <div className="icon">
               <img src={r6} alt="allgames-icon" />
-              <div className="filter-name">Rainbow 6</div>
             </div>
+            <div className="filter-name">Rainbow 6</div>
           </div>
         </li>
       </NavLink>
