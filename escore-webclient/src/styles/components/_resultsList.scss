@@ -1,0 +1,30 @@
+.col-games-filters {
+  padding: 10px;
+  background-color: $col-background-color;
+  border-radius: 8px;
+  border: $form-border;
+  box-shadow: $form-box-shadow;
+  @include grid-media($small-screen) {
+    @include grid-column(1);
+  }
+  @include grid-media($tablet) {
+    @include grid-column(8);
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.col-results-list {
+  padding: 20px;
+  margin: 0 10px 10px;
+  background-color: $col-background-color;
+  border-radius: 8px;
+  border: $form-border;
+  box-shadow: $form-box-shadow;
+  @include grid-media($small-screen) {
+    @include grid-column(11);
+  }
+  @include grid-media($tablet) {
+    @include grid-column(8);
+  }
+}
