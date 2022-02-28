@@ -1,6 +1,7 @@
 @import "../../node_modules/bourbon/core/bourbon";
 @import "../../node_modules/bourbon-neat/core/neat";
 @import url("https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap");
 @import "./settings";
 @import "./base/base";
 @import "./base/typography";
@@ -8,9 +9,11 @@
 @import "./layouts/sidebar";
 @import "./layouts/navbar";
 @import "./layouts/verticalGamesFilters";
+@import "./layouts/streamLink";
 @import "./layouts/horizontalGamesFilters";
 @import "./layouts/dateFilter";
 @import "./components/header";
 @import "./components/resultsList";
+@import "./components/scoreboard";
 
 @import "./pages/home";

@@ -1,0 +1,14 @@
+.stream-link {
+  font-family: $base-font-family;
+  font-size: 1.6em;
+  svg {
+    margin-right: 5px;
+    padding-right: 7px;
+    color: #ff3b3bce;
+    width: 100%;
+    height: 100%;
+    &:hover {
+      color: #ff0000;
+    }
+  }
+}
