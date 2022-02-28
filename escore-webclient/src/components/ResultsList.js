@@ -1,6 +1,6 @@
 import React from "react";
-import Scoreboard from "../layouts/Scoreboard";
-import VerticalGamesFilters from "../layouts/VerticalGamesFilters";
+import Scoreboard from "./layouts/Scoreboard";
+import VerticalGamesFilters from "./layouts/VerticalGamesFilters";
 
 const ResultsList = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/header/Header";
-import ResultsList from "../components/containers/ResultsList";
+import Header from "../components/Header";
+import ResultsList from "../components/ResultsList";
 
 const Home = () => {
   return (
