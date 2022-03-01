@@ -29,6 +29,12 @@ body {
   margin-right: auto;
 }
 
+footer {
+  position: absolute;
+  left: 0 !important;
+  width: 100% !important;
+}
+
 article,
 aside,
 footer,
@@ -48,36 +54,7 @@ a:hover {
 img {
   border-style: none;
 }
-svg:not(:root) {
-  overflow: hidden;
-}
-svg:not(:root).svg-inline--fa {
-  overflow: visible;
-}
-.svg-inline--fa {
-  display: inline-block;
-  font-size: inherit;
-  height: 1em;
-  overflow: visible;
-  vertical-align: -0.125em;
-}
 
-.svg-inline--fa.fa-w-9 {
-  width: 0.5625em;
-}
-.svg-inline--fa.fa-w-6 {
-  width: 0.375em;
-}
-.svg-inline--fa.fa-w-14 {
-  width: 0.875em;
-}
-.svg-inline--fa.fa-w-16 {
-  width: 1em;
-}
-.svg-inline--fa.svg-inline--fa.fa-w-18 {
-  width: 1.5em;
-  height: 1.2em;
-}
 button,
 input,
 optgroup,
