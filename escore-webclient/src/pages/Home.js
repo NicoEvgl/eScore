@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ResultsList from "../components/ResultsList";
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div className="home-page">
       <Header />
       <ResultsList />
+      <Footer />
     </div>
   );
 };
