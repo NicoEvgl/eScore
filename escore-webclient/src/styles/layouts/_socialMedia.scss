@@ -1,0 +1,35 @@
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  ul {
+    display: flex;
+    @include clean-ul;
+  }
+  a + a {
+    margin-left: 15px;
+  }
+  svg {
+    color: #fff;
+  }
+  .social-icon {
+    border: 2.5px solid #a5b0ba;
+    border-radius: $base-border-radius;
+    box-shadow: $form-box-shadow;
+    height: 32px;
+    width: 32px;
+  }
+  .social-icon.fb:hover {
+    border-color: #3b5998;
+    background: #3b5998;
+  }
+  .social-icon.tw:hover {
+    border-color: #55acee;
+    background: #55acee;
+  }
+  .social-icon.insta:hover {
+    border-color: #ee556e;
+    background: #ee556e;
+  }
+}
