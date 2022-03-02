@@ -1,12 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import allgames from "../../assets/png/allgames-ico.png";
-import lol from "../../assets/png/lol-ico.png";
-import csgo from "../../assets/png/csgo-ico.png";
-import valo from "../../assets/png/valorant-ico.png";
-import dota from "../../assets/png/dota2-ico.png";
-import rl from "../../assets/png/rl-ico.png";
-import r6 from "../../assets/png/r6-ico.png";
 
 const VerticalGamesFilters = () => {
   return (
@@ -16,7 +9,7 @@ const VerticalGamesFilters = () => {
           <li>
             <div className="filter">
               <div className="icon">
-                <img src={allgames} alt="allgames-icon" />
+                <img src={"../img/ico/allgames-ico.png"} alt="allgames icon" />
               </div>
               <div className="filter-name">Tous les jeux</div>
             </div>
@@ -26,7 +19,7 @@ const VerticalGamesFilters = () => {
           <li>
             <div className="filter">
               <div className="icon">
-                <img src={lol} alt="allgames-icon" />
+                <img src={"../img/ico/lol-ico.png"} alt="lol icon" />
               </div>
               <div className="filter-name">League Of Legends</div>
             </div>
@@ -36,7 +29,7 @@ const VerticalGamesFilters = () => {
           <li>
             <div className="filter">
               <div className="icon">
-                <img src={csgo} alt="allgames-icon" />
+                <img src={"../img/ico/csgo-ico.png"} alt="csgo icon" />
               </div>
               <div className="filter-name">Counter-Strike : GO</div>
             </div>
@@ -46,7 +39,7 @@ const VerticalGamesFilters = () => {
           <li>
             <div className="filter">
               <div className="icon">
-                <img src={valo} alt="allgames-icon" />
+                <img src={"../img/ico/valorant-ico.png"} alt="valorant icon" />
               </div>
               <div className="filter-name">Valorant</div>
             </div>
@@ -56,7 +49,7 @@ const VerticalGamesFilters = () => {
           <li>
             <div className="filter">
               <div className="icon">
-                <img src={dota} alt="allgames-icon" />
+                <img src={"../img/ico/dota2-ico.png"} alt="dota2 icon" />
               </div>
               <div className="filter-name">Dota 2</div>
             </div>
@@ -66,7 +59,7 @@ const VerticalGamesFilters = () => {
           <li>
             <div className="filter">
               <div className="icon">
-                <img src={rl} alt="allgames-icon" />
+                <img src={"../img/ico/rl-ico.png"} alt="rocket league icon" />
               </div>
               <div className="filter-name">Rocket League</div>
             </div>
@@ -76,7 +69,7 @@ const VerticalGamesFilters = () => {
           <li>
             <div className="filter">
               <div className="icon">
-                <img src={r6} alt="allgames-icon" />
+                <img src={"../img/ico/r6-ico.png"} alt="rainbow six icon" />
               </div>
               <div className="filter-name">Rainbow 6</div>
             </div>
