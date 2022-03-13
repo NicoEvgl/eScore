@@ -1,13 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import ResultsList from "../components/ResultsList";
+import Scoreboard from "../components/Scoreboard";
 
 const Home = () => {
   return (
     <div className="home-page">
       <Header />
-      <ResultsList />
+      <Scoreboard />
       <Footer />
     </div>
   );
