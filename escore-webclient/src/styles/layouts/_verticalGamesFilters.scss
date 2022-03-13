@@ -6,9 +6,9 @@
     flex-wrap: wrap;
     padding: 6px;
   }
-  a {
+  li {
     display: block;
-    + a {
+    + li {
       margin-top: 10px;
       @include grid-media($tablet) {
         margin: 3px;
