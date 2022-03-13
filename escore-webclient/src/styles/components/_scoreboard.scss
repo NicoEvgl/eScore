@@ -145,7 +145,8 @@
       overflow: hidden;
       .team-name {
         flex: 1;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+        font-weight: bold;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
@@ -154,42 +155,19 @@
           font-size: 1.6rem;
         }
         @include grid-media($mobile) {
-          font-size: 1.3rem;
-        }
-        &:first-child {
-          text-align: right;
-          padding-left: 20px;
-          @include grid-media($small-screen) {
-            padding-left: 0;
-          }
-        }
-        &:last-child {
-          padding-right: 20px;
-          @include grid-media($small-screen) {
-            padding-right: 0;
-          }
+          font-size: 1.4rem;
         }
       }
-      .team-logo {
-        width: 30px;
-        @include grid-media($mobile) {
-          width: 24px;
+      &:first-child {
+        text-align: right;
+        @include grid-media($small-screen) {
+          padding-left: 0;
         }
-        &:first-child {
-          margin-right: 15px;
-          @include grid-media($mobile) {
-            margin-right: 10px;
-          }
-        }
-        &:last-child {
-          margin-left: 15px;
-          @include grid-media($mobile) {
-            margin-left: 10px;
-          }
-        }
-        img {
-          display: block;
-          width: 100%;
+      }
+      &:last-child {
+        text-align: left;
+        @include grid-media($small-screen) {
+          padding-right: 0;
         }
       }
     }
