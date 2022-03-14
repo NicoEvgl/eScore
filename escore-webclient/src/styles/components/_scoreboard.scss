@@ -110,7 +110,7 @@
     text-transform: uppercase;
     color: #fff;
     padding: 3px 0 4px;
-    width: 65px;
+    width: 75px;
     text-align: center;
     font-size: 1.4rem;
     border-radius: 4px;
@@ -128,6 +128,13 @@
       height: auto;
       border-radius: 0;
     }
+  }
+  .date {
+    font-weight: bold;
+    font-size: 1.6rem;
+    width: 15%;
+    text-align: end;
+    padding-left: 10px;
   }
   .scoreboard {
     display: flex;
@@ -213,6 +220,8 @@
       width: 55px;
       text-align: right;
       font-size: 1.4rem;
+      font-weight: bold;
+      padding-right: 5px;
       @include grid-media($mobile) {
         width: auto;
         font-size: 1.2rem;
