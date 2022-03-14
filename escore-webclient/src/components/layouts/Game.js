@@ -27,7 +27,7 @@ const GameSection = ({ game }) => {
           <li>
             <div className="match-row live">
               <div className="status-tag">{game.status}</div>
-              <div className="date">{game.scheduled_at}</div>
+              <div className="date">{game.scheduled_at.slice(0, 10)}</div>
               <div className="scoreboard">
                 <div className="team">
                   <div className="team-name">{teamNames[0]}</div>
