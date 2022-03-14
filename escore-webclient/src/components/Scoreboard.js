@@ -56,7 +56,7 @@ const Scoreboard = () => {
                   </div>
                 </li>
                 {gamesData.map((gameFilter) => (
-                  <li>
+                  <li key={gameFilter.id}>
                     <div className="filter">
                       <div className="icon">
                         <img
@@ -84,8 +84,8 @@ const Scoreboard = () => {
             </div>
             <div className="col-9 col-results-list">
               <ul className="horizontal-games-filters">
-                {filters.map((filter) => (
-                  <li>
+                {filters.map((filter, index) => (
+                  <li key={index}>
                     <div className="filter">
                       <div className="filter-name">
                         <input
@@ -115,7 +115,9 @@ const Scoreboard = () => {
                 .filter((game) => game.videogame.name.includes(selectedGame))
                 .filter((game) => game.status.includes(selectedFilter))
                 .filter((game) =>
-                  game.scheduled_at.includes(startDate.getDate("yyyy-MM-dd"))
+                  game.scheduled_at
+                    .slice(0, 10)
+                    .includes(startDate.toISOString().slice(0, 10))
                 )
                 .sort((game) => game.league.name)
                 .map((game) => (
